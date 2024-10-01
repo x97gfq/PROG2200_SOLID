@@ -1,4 +1,4 @@
-package OpenClosed;
+package OpenClosed.Shape;
 
 public class Circle extends Shape {
     private double radius;

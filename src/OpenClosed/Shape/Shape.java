@@ -1,4 +1,4 @@
-package OpenClosed;
+package OpenClosed.Shape;
 
 public abstract class Shape {
     public abstract double area();
