@@ -1,4 +1,4 @@
-package LiskovSubstitution;
+package LiskovSubstitution.example1;
 
 public class Bird {
     public void fly() {
