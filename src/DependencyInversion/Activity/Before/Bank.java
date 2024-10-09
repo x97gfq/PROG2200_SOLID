@@ -1,4 +1,4 @@
-package DependencyInversion.Example4;
+package DependencyInversion.Activity.Before;
 
 public class Bank {
 

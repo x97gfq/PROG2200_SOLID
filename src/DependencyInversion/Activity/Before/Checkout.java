@@ -1,12 +1,10 @@
-package DependencyInversion.Example4;
+package DependencyInversion.Activity.Before;
 
 public class Checkout {
 
-    public void completeCheckout(float amount) {
+    public void completeCheckout(float amount, int paymentType) {
         //
         //
-        int paymentType = 1;
-
         if (paymentType == 1) {
             Bank bank = new Bank();
             bank.makePayment();
@@ -14,7 +12,6 @@ public class Checkout {
             PayPal paypal = new PayPal();
             paypal.payWithPayPal();
         }
-
         //
         //
     }
